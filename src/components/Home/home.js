@@ -30,7 +30,7 @@ const HomeComponent = () => {
 
                 height="100vh"
                 >
-                <View UNSAFE_className='topnavcontainer' height='8vh'   gridArea="header" >
+                <View UNSAFE_className='topnavcontainer' height='12vh'   gridArea="header" >
                     <Headbar/>
                     
                 </View>
@@ -92,46 +92,3 @@ const HomeComponent = () => {
 
 export default HomeComponent;
 
-/*
-<View  gridArea="sidebar" backgroundColor="gray-200" padding="size-200" UNSAFE_className="sidebar">
-          <Flex direction="column" >
-            <Flex alignItems="center" gap="size-100" UNSAFE_className="nav-item">
-              <h>h-symbol</h>
-              <Text>Home</Text>
-            </Flex>
-            <Flex alignItems="center" gap="size-100" UNSAFE_className="nav-item">
-              <p>dashboardsymbol</p>
-              <Text>Dashboard</Text>
-            </Flex>
-            <Heading level={3} UNSAFE_className="section-heading">Services</Heading>
-            <Text>Airports</Text>
-            <Text>Videos</Text>
-            <Heading level={3} UNSAFE_className="section-heading">Others</Heading>
-            <Text>List 1</Text>
-            <Text>List 2</Text>
-            <Text>List 3</Text>
-          </Flex>
-        </View>
-        <View gridArea="content" padding="size-200" UNSAFE_className="content">
-          <Heading level={2} UNSAFE_className="content-heading">Airports</Heading>
-          <TableView aria-label="Airports Table">
-            <TableHeader>
-              <Column>
-                <Checkbox aria-label="Select All Airports" />
-              </Column>
-              <Column>Airport Name</Column>
-              <Column>Country</Column>
-            </TableHeader>
-            <TableBody>
-              {airports.map((airport, index) => (
-                <Row key={index}>
-                  <Cell>
-                    <Checkbox aria-label={`Select ${airport.name}`} />
-                  </Cell>
-                  <Cell>{airport.name}</Cell>
-                  <Cell>{airport.country}</Cell>
-                </Row>
-              ))}
-            </TableBody>
-          </TableView>
-        </View>*/

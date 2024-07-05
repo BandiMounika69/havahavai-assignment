@@ -10,9 +10,9 @@ import {faEllipsis,faArrowUpFromBracket,faHouse,faGrip,faArrowDown,faPlus} from 
 import Headbar from '../headBar/Headbar';
 import Sidebar from '../sidebar/sidebar';
 import '../Home/home.css'
-import "./details.css"
+import "./AirportDetails.css"
 
-const Details = () => {
+const AirportDetails = () => {
     const {id} = useParams()
     console.log(id)
     const airports = [
@@ -221,48 +221,5 @@ const Details = () => {
   );
 }
 
-export default Details;
+export default AirportDetails;
 
-/*
-<View  gridArea="sidebar" backgroundColor="gray-200" padding="size-200" UNSAFE_className="sidebar">
-          <Flex direction="column" >
-            <Flex alignItems="center" gap="size-100" UNSAFE_className="nav-item">
-              <h>h-symbol</h>
-              <Text>Home</Text>
-            </Flex>
-            <Flex alignItems="center" gap="size-100" UNSAFE_className="nav-item">
-              <p>dashboardsymbol</p>
-              <Text>Dashboard</Text>
-            </Flex>
-            <Heading level={3} UNSAFE_className="section-heading">Services</Heading>
-            <Text>Airports</Text>
-            <Text>Videos</Text>
-            <Heading level={3} UNSAFE_className="section-heading">Others</Heading>
-            <Text>List 1</Text>
-            <Text>List 2</Text>
-            <Text>List 3</Text>
-          </Flex>
-        </View>
-        <View gridArea="content" padding="size-200" UNSAFE_className="content">
-          <Heading level={2} UNSAFE_className="content-heading">Airports</Heading>
-          <TableView aria-label="Airports Table">
-            <TableHeader>
-              <Column>
-                <Checkbox aria-label="Select All Airports" />
-              </Column>
-              <Column>Airport Name</Column>
-              <Column>Country</Column>
-            </TableHeader>
-            <TableBody>
-              {airports.map((airport, index) => (
-                <Row key={index}>
-                  <Cell>
-                    <Checkbox aria-label={`Select ${airport.name}`} />
-                  </Cell>
-                  <Cell>{airport.name}</Cell>
-                  <Cell>{airport.country}</Cell>
-                </Row>
-              ))}
-            </TableBody>
-          </TableView>
-        </View>*/
