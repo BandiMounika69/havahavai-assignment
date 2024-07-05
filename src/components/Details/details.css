@@ -1,0 +1,80 @@
+.terminalcard{
+    border: solid 1px grey;
+    width: 300px;
+    
+}
+.terminaltabconatiner{
+    padding-top: 20px;
+}
+.terminalCardRightCont{
+
+    padding: 10px;
+}
+.textterminalcard{
+    text-align: left;
+    align-self: start;
+
+}
+.contentcontainer{
+    overflow: scroll;
+    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.topnavcontainer{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: #fff;
+}
+.sidebarcont{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    animation: ease 2s;
+    transition: ease-in 2s;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.contentcontainer::-webkit-scrollbar {
+    display: none;
+    padding-bottom: 200px;
+
+}
+.terminaltitle{
+    width: 50%;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+}
+.actionbutoon{
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px black;
+  color: black;
+  font-weight: bold;
+}
+
+Link{
+    color: none;
+    text-decoration: none;
+}
+.linkele{
+    color: none;
+    text-decoration: none;
+    color: black;
+}
+/* Hide scrollbar for IE, Edge, and Firefox */
+.contentcontainer {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.inputcontiner{
+    background: none;
+    border: none;
+    outline: none;
+    width: 80%;
+    font-weight: Bold;
+}
+.inputcontinerdesc{
+    background: none;
+    border: none;
+    outline: none;
+    width: 80%;
+}
